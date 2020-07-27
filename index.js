@@ -50,7 +50,7 @@ function removeFromCart(item) {
      return cart
    }//if 
    else {
-     
+     return "That item is not in your cart."
    }
  }//for
 }
