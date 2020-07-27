@@ -23,7 +23,7 @@ function viewCart() {
   else {
     for (let i=0; i < getCart.length; i++){
       if (i === 0){
-        return 
+        return `In your cart, you have ${getCart[0].itemName} at ${getCart[0].itemPrice}.`
       }//if
     } //for 
   } //else
