@@ -20,11 +20,12 @@ function viewCart() {
   if(getCart.length ===0){
     return "Your shopping cart is empty."
   }//if 
+   else if (getCart.length ===1){
+    return `In your cart, you have ${getCart[0].itemName} at ${getCart[0].itemPrice}.`
+   } //else if 
   else {
     for (let i=0; i < getCart.length; i++){
-      if (i === 0){
-        return `In your cart, you have ${getCart[0].itemName} at ${getCart[0].itemPrice}.`
-      }//if
+      
     } //for 
   } //else
 }
