@@ -31,7 +31,7 @@ function viewCart() {
       for (let i =0; i< cart.length -1; i++){
         output = `${output} ${cart[i].itemName} at $${cart[i].itemPrice}, `
       } //for 
-      return
+      return `${output}
     } //else
 }
 
