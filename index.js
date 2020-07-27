@@ -25,7 +25,7 @@ function viewCart() {
    } //else if 
   else {
     for (let i=0; i < getCart.length; i++){
-      
+      return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}, `
     } //for 
   } //else
 }
