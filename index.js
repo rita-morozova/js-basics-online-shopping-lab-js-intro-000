@@ -29,7 +29,7 @@ function viewCart() {
     else {
       var output = "In your cart, you have "
       for (let i =0; i< cart.length -1; i++){
-        
+        output = `${output} ${
       } //for 
     } //else
 }
